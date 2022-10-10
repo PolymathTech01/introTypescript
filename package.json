@@ -1,0 +1,31 @@
+{
+  "name": "introtypescript",
+  "version": "1.0.0",
+  "description": "Introduction To Typescript",
+  "main": "examples.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/examples.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolymathTech01/introTypescript.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Alli Olarinde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PolymathTech01/introTypescript/issues"
+  },
+  "homepage": "https://github.com/PolymathTech01/introTypescript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  }
+}
